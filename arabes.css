@@ -1,0 +1,1120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.logo{
+    height: 100px;
+    position: fixed;
+    animation: vindo2 2s forwards;
+    
+    
+    
+
+}
+.retangulo{
+    background-color: black;
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+
+}
+.linkzap{
+    height: 300px;
+    width: 300px;
+}
+
+
+
+    @media (max-width:900px){
+        .card .frente{
+            margin: 0px;
+            margin-top: 150px;
+            height: 150px;
+            width: 150px;
+            margin-left: 30px;
+            margin-bottom: 0px;
+            
+        } 
+        .container .card{
+            margin-left: 30px;
+            
+        }  
+        .card .img{
+            height: 200px;
+            width: 200px;
+            animation: vindo 2s 2 alternate; 
+            transition-duration: 3s;
+        }
+        .card .sobre{
+            font-size: 15px;
+            width: 300px;
+        }
+        .cabeca .img-rs{
+            left: 280px;
+        }
+        .cabeca #carrinhoimg{
+
+            left: 200px;
+        }
+        footer .titulo{
+            margin: 40px;
+            font-size: 18px;
+        }
+        .cabeca .valores{
+            height: 150px;
+            width: 390px;
+            margin-top: 340px;
+            margin-left: 0px;
+            margin-bottom: 0px;
+        }
+        .cabeca #valorTotal{
+            margin-top: 20px;
+            margin-left: 10px;
+            border-radius: 10px;
+            margin-bottom: 0px;
+
+        }
+        .cabeca .comprar{
+            position: absolute;
+            margin-left: 40px;
+            background-color: rgb(247, 223, 227);
+            border: 3px solid;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            
+           
+            
+        }
+}
+
+
+
+
+
+.img-rs{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 1700px;
+    top: 30px;
+    animation: vindo2 2s forwards;
+    position: fixed;
+
+}
+#carrinhoimg{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 1700px;
+    top: 30px;
+    animation: vindo2 2s forwards;
+    position: fixed;
+    left: 1600px;
+    background-color: wheat;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+@keyframes mexendo{
+    to{
+        transform: translateY(-30px);
+
+    }
+}
+
+@keyframes vindoLado{
+    from{
+        transform: translateX(-400px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+
+@keyframes vindo2{
+    from{
+        transform: translateY(-100px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+.container{
+    height: 60%;
+    width: 100%;
+    background-color: rgb(252, 221, 221);
+}
+.frente{
+    display: inline-block;
+    padding: 50px;
+    margin-left: 0px;
+    height: 200px;
+    width: 200px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    background-color: rgb(255, 192, 192) ;
+    border-radius: 10%;
+    animation: vindoLado 1s backwards;
+    box-shadow: 5px 5px 5px 5px rosybrown;
+    backface-visibility: hidden;
+    
+
+
+   
+}
+.nome{
+    font-family: Copperplate Gothic;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: -30px;
+    cursor: pointer;
+    animation-duration: 1s;
+}
+
+
+.img{
+    height: 250px;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+    object-fit: cover;
+    animation: vindoLado 2s backwards;
+    transition-duration: 1s;
+   
+}
+.img:hover {
+    height: 270px;
+    width: 270px;
+    cursor: pointer;
+}
+
+
+
+.rodape{
+    background-color: black;
+    height: 50px;
+    color: rgb(255, 255, 253);
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    margin-top: 140px;
+}
+
+.informacao{
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(251, 159, 159);
+    font-family: Copperplate Gothic;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-top: 5px;
+    font-weight: 500;
+}
+.card{
+    display: inline-block;
+    margin-left: 130px;
+   
+
+}
+
+.sobre{
+    font-size: 18px;
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    margin-left: -60px;
+    padding: 4px
+
+}
+.titulo{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 202, 202);
+    width: 60%;
+    margin-left: 300px;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    
+    
+    
+
+}
+.titulo:hover{
+    background-color: rgb(247, 232, 148);
+    transition: 1s;
+    
+}
+.link{
+    text-decoration: none;
+    color: rgb(249, 221, 221);
+    transition-duration: 1s;
+}
+.link:hover{
+    color: black;
+}
+.carrinho{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    border-top-left-radius: 20px ;
+    border-bottom-right-radius:  20px;
+
+}
+.carrinho:hover{
+    background-color: rgb(215, 215, 215);
+    transition: 0.5s;
+}
+.carrinhoN{
+    height: 200px;
+    width: 300px;
+    position: fixed;
+    margin-top: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    
+   
+}
+#telaCarrinho{
+    height: 800px;
+    width: 100%;
+    display: none;
+    background-color: rgb(253, 247, 239);
+    border-bottom: 2px double;
+    border: 2px solid;
+    position: fixed;
+    margin-top: 100px;
+}
+
+
+
+.valor{
+    position: fixed;
+    margin-top: 380px;
+    text-align: center;
+    height: 80px;
+    font-size: 50px;
+    font-family: monospace;
+    border-radius: 40px;
+    width: 300px;
+    font-family: monospace;
+    font-weight: 100;
+    
+    
+}
+@media(max-width:900px){
+    .cabeca .valor{
+        width: 50px;
+        font-size: 20px;
+
+    }
+    .cabeca .produtos{
+        font-size: 25px;
+        right: 150px;
+        width: 200px;
+        
+    }
+    .cabeca #telaCarrinho{
+        width: 400px;
+        height: 500px;
+    }
+    .cabeca #fechar{
+        right: 0px;
+    }
+    #telaCarrinho .imgperfume1{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 250px;
+        margin-right: 0px;
+        margin-left: 0px;
+        
+
+        
+    }
+    #telaCarrinho .imgperfume2{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 250px;
+        margin-right: 0px;
+        margin-left: 0px;
+        
+        
+    }
+    #telaCarrinho .imgperfume3{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 250px;
+        margin-right: 0px;
+        margin-left: 0px;
+        
+        
+    }
+    #telaCarrinho .imgperfume4{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 250px;
+        margin-right: 0px;
+        margin-left: 0px;
+        
+        
+    }
+    #telaCarrinho .imgperfume5{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 250px;
+        
+        
+    }
+    #telaCarrinho .imgperfume6{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 250px;
+        
+        
+    }
+    #telaCarrinho .imgperfume7{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 250px;
+        
+        
+    }
+    #telaCarrinho .imgperfume8{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 250px;
+        
+        
+    }
+    #telaCarrinho .imgperfume9{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 250px;
+        
+        
+    }
+    #telaCarrinho .imgperfume10{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 250px;
+        
+        
+    }
+    #telaCarrinho .imgperfume11{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 250px;
+        
+        
+    }
+    #telaCarrinho .imgperfume12{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 250px;
+        
+        
+    }
+    #telaCarrinho .imgperfume13{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 250px;
+        
+        
+    }
+    #telaCarrinho .imgperfume14{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 250px;
+        
+        
+    }
+    #telaCarrinho .imgperfume15{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 250px;
+        
+        
+    }
+   
+    #telaCarrinho .imgperfume16{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 250px;
+        
+        
+    }
+    .cardp .cardWatani{
+        padding: 0px;
+        margin-left: -30px;
+        margin-right: -10px;
+    }
+    .cardp .cardSabah{
+        margin-left: -30px;
+        
+        margin-right: -10px;
+    }
+    .cardp .cardBella{
+        margin-left: -30px;
+        margin-right: -10px;
+    }
+    .cardp .cardImperial{
+        margin-left: -30px;
+        margin-right: -10px;
+    }
+    .cardp .cardNoor{
+        margin-left: -30px;
+        margin-right: -10px;
+    }
+    .cardp .cardAthar{
+        margin-left: -30px;
+        margin-right: -10px;
+    }
+    .cardp .cardThahaani{
+        margin-left: -30px;
+        margin-right: -10px;
+    }
+    .cardp .cardSultan{
+        margin-left: -30px;
+        margin-right: -10px;
+    }
+    .cardp .cardShell{
+        margin-left: -30px;
+        margin-right: -10px;
+    }
+    .cardp .cardParis{
+        margin-left: -30px;
+        margin-right: -10px;
+    }
+    .cardp .cardIntimate{
+        margin-left: -30px;
+        margin-right: -10px;
+    }
+    .cardp .cardMirage{
+        margin-left: -30px;
+        margin-right: -10px;
+    }
+    .cardp .cardMirageR{
+        margin-left: -30px;
+        margin-right: -10px;
+    }
+    .cardp .cardGolden{
+        margin-left: -30px;
+        margin-right: -10px;
+    }
+    .cardp .cardJourney{
+        margin-left: -30px;
+        margin-right: -10px;
+    }
+    .cardp .cardWindow{
+        margin-left: -30px;
+        margin-right: -10px;
+    }
+    .cabeca .nomePerfume{
+        font-size: 15px;
+        margin-left: -40px;
+    }
+    .cabeca .nomePerfume2{
+        font-size: 15px;
+        margin-left: -40px;
+    }
+    .cabeca .nomePerfume3{
+        font-size: 15px;
+        margin-left: -40px;
+    }
+    .cabeca .nomePerfume4{
+        font-size: 15px;
+        margin-left: -40px;
+    }
+    .cabeca .nomePerfume5{
+        font-size: 15px;
+        margin-left: -40px;
+    }
+    .cabeca .nomePerfume6{
+        font-size: 15px;
+        margin-left: -40px;
+    }
+    .cabeca .nomePerfume7{
+        font-size: 15px;
+        margin-left: -40px;
+    }
+    .cabeca .nomePerfume8{
+        font-size: 15px;
+        margin-left: -40px;
+    }
+    .cabeca .nomePerfume9{
+        font-size: 15px;
+        margin-left: -40px;
+    }
+    .cabeca .nomePerfume10{
+        font-size: 15px;
+        margin-left: -40px;
+    }
+    .cabeca .nomePerfume11{
+        font-size: 15px;
+        margin-left: -40px;
+    }
+    .cabeca .nomePerfume12{
+        font-size: 15px;
+        margin-left: -40px;
+    }
+    .cabeca .nomePerfume13{
+        font-size: 15px;
+        margin-left: -40px;
+    }
+    .cabeca .nomePerfume14{
+        font-size: 15px;
+        margin-left: -40px;
+    }
+    .cabeca .nomePerfume15{
+        font-size: 15px;
+        margin-left: -40px;
+    }
+    .cabeca .nomePerfume16{
+        font-size: 15px;
+        margin-left: -40px;
+    }
+    
+
+
+}
+
+#fechar{
+    margin-top: 0px;
+    height: 50px;
+    width: 70px;
+    cursor: pointer;
+    margin-left: 1800px;
+    padding: 0px;
+    border-bottom-left-radius: 20px;
+    font-size: 17px;
+    font-family: monospace;
+    background-color: pink;
+    position: fixed;
+    
+
+    
+}
+.cardp{
+    height: 400px;
+    width: 1100px;
+    display: inline-block;
+    padding: 50px;
+    margin-top: -1000px;
+}
+.containerP{
+    width: 1100px;
+    margin-top: 00px;
+}
+.produtos{
+    padding-top: 1px;
+    text-align: center;
+    font-size: 70px;
+    font-family: monospace;
+    font-weight: 100;
+    position: fixed;
+    margin-left: 200px;
+    margin-top: 20px;
+    box-shadow: rgb(253, 140, 159) 10px 10px 20px;
+    background-color: rgb(252, 213, 220);
+    border-radius: 10px;
+    border: 1px solid;
+   
+
+}
+
+#fechar:hover{
+    background-color: wheat;
+    transition: 0.5s;
+}
+.valores{
+    height: 600px;
+    width: 400px;
+    margin-left: 1400px;
+    margin-top: 50px;
+    background-color: pink;
+    text-align: center;
+    border: 4px outset;
+
+}
+#valorTotal{
+   margin-top: 100px;
+   margin-left:20px;
+   font-size: 30px;
+   position: fixed;
+   width: 350px;
+   background-color: wheat;
+   border: 1px solid;
+   border-radius: 10px;
+}
+.imgperfume1{
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    background: url(imgs/watan.webp);
+    background-size: cover;
+    margin-bottom: 150px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-right: 20px;
+        
+}
+.imgperfume2{
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    background: url(imgs/download-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 150px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-right: 20px;
+        
+}
+.imgperfume3{
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    background: url(imgs/61aed-7Vl1L._AC_SX679_-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 150px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-right: 20px;
+        
+}
+.imgperfume4{
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    background: url(imgs/dc467689-6144-4467-9f14-c53cdf09c01d-sultan-al-lail-al-wataniah-masculino-eau-de-parfum-100ml.webp);
+    background-size: cover;
+    margin-bottom: 150px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-right: 20px;
+        
+}
+
+.imgperfume5{
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    background: url(imgs/image-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 150px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-right: 20px;
+        
+}
+.imgperfume6{
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    background: url(imgs/image-removebg-preview\ \(1\).png);
+    background-size: cover;
+    margin-bottom: 150px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-right: 20px;
+        
+}
+.imgperfume7{
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    background: url(imgs/image-removebg-preview\ \(2\).png);
+    background-size: cover;
+    margin-bottom: 150px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-right: 20px;
+        
+}
+.imgperfume8{
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    background: url(imgs/image-removebg-preview\ \(3\).png);
+    background-size: cover;
+    margin-bottom: 150px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-right: 20px;
+        
+}
+.imgperfume9{
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    background: url(imgs/image-removebg-preview\ \(10\).png);
+    background-size: cover;
+    margin-bottom: 150px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-right: 20px;
+        
+}
+
+.imgperfume10{
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    background: url(imgs/Romantic\ Rose.png);
+    background-size: cover;
+    margin-bottom: 150px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-right: 20px;
+        
+}
+.imgperfume11{
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    background: url(imgs/golden\ challenge.png);
+    background-size: cover;
+    margin-bottom: 150px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-right: 20px;
+        
+}
+.imgperfume12{
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    background: url(imgs/Rosiale\ Paris.png);
+    background-size: cover;
+    margin-bottom: 150px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-right: 20px;
+        
+}
+.imgperfume13{
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    background: url(imgs/journey.png);
+    background-size: cover;
+    margin-bottom: 150px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-right: 20px;
+        
+}
+.imgperfume14{
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    background: url(imgs/blue\ window.png);
+    background-size: cover;
+    margin-bottom: 150px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-right: 20px;
+        
+}
+.imgperfume15{
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    background: url(imgs/Golden\ shell.png);
+    background-size: cover;
+    margin-bottom: 150px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-right: 20px;
+        
+}
+.imgperfume16{
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    background: url(imgs/intimate.png);
+    background-size: cover;
+    margin-bottom: 150px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-right: 20px;
+        
+}
+
+
+
+
+.nomePerfume{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    margin: 0px;
+    
+    
+}
+.nomePerfume14{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    margin: 0px;
+    
+    
+}
+.nomePerfume11{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    margin: 0px;
+    
+    
+}
+.nomePerfume13{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    margin: 0px;
+    
+    
+}
+.nomePerfume15{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    margin: 0px;
+    
+    
+}
+.nomePerfume16{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    margin: 0px;
+    
+    
+}
+.cardMirage{
+    height: 200px;
+    width: 150px;
+    display: inline-block;
+    margin: 50px;
+
+}
+.cardIntimate{
+    height: 200px;
+    width: 150px;
+    display: inline-block;
+    margin: 50px;
+
+}
+.cardWindow{
+    height: 200px;
+    width: 150px;
+    display: inline-block;
+    margin: 50px;
+
+}
+.cardShell{
+    height: 200px;
+    width: 150px;
+    display: inline-block;
+    margin: 50px;
+
+}
+.cardJourney{
+    height: 200px;
+    width: 150px;
+    display: inline-block;
+    margin: 50px;
+
+}
+.cardMirageR{
+    height: 200px;
+    width: 150px;
+    display: inline-block;
+    margin: 50px;
+
+}
+.cardGolden{
+    height: 200px;
+    width: 150px;
+    display: inline-block;
+    margin: 50px;
+
+}
+.cardParis{
+    height: 200px;
+    width: 150px;
+    display: inline-block;
+    margin: 50px;
+
+}
+
+
+.cardWatani{
+    height: 200px;
+    width: 150px;
+    display: inline-block;
+    margin: 50px;
+}
+.cardSabah{
+    height: 200px;
+    width: 150px;
+    display: inline-block;
+    margin: 50px;
+}
+.cardBella{
+    height: 200px;
+    width: 150px;
+    display: inline-block;
+    margin: 50px;
+}
+.cardNoor{
+    height: 200px;
+    width: 150px;
+    display: inline-block;
+    margin: 50px;
+}
+.cardSultan{
+    height: 200px;
+    width: 150px;
+    display: inline-block;
+    margin: 50px;
+}
+.cardThahaani{
+    height: 200px;
+    width: 150px;
+    display: inline-block;
+    margin: 50px;
+}
+.cardAthar{
+    height: 200px;
+    width: 150px;
+    display: inline-block;
+    margin: 50px;
+}
+.cardImperial{
+    height: 200px;
+    width: 150px;
+    display: inline-block;
+    margin: 50px;
+    
+}
+.nomePerfume2{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    margin: 0px;
+}
+.nomePerfume3{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    margin: 0px;
+}
+.nomePerfume4{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    margin: 0px;
+}
+.nomePerfume5{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    margin: 0px;
+}
+.nomePerfume6{
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+    margin: 0px;
+}
+.nomePerfume7{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    margin: 0px;
+}
+.nomePerfume8{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    margin: 0px;
+}
+.nomePerfume9{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    margin: 0px;
+}
+.nomePerfume10{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    margin: 0px;
+}
+.nomePerfume12{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    margin: 0px;
+}
+
+
+.valorWatani{
+    font-size: 20px;
+}
+#valoresX{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.comprar{
+    text-align: center;
+    margin-left: 1500px;
+    font-size: 40px;
+    font-weight: 100;
+    width: 300px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: wheat;
+    border:1px inset black;
+    box-shadow: 5px 5px grey;
+    transition-duration: 1s;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 5px;
+    
+}
+.comprar:hover{
+    background-color: rgb(251, 200, 123);
+}
+
